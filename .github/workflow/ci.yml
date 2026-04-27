@@ -1,0 +1,10 @@
+name : HR CI workflow
+on : 
+  push : #workflow kab run hoga
+jobs :
+  build : #job ka nam
+    runs-on : ubutu-latest #job kaha run hoga
+    steps : 
+      - uses : actions/checkout@v4 #code ko checkout karna
+      - uses : Set up JDK 17 #JDK setup karna
+       
